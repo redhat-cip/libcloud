@@ -70,6 +70,7 @@ class Provider(object):
     @cvar KTUCLOUD: kt ucloud driver
     @cvar GRIDSPOT: Gridspot driver
     @cvar ABIQUO: Abiquo driver
+    @cvar ENOCLOUD: eNoCloud driver
     """
     DUMMY = 'dummy'
     EC2 = 'ec2_us_east'
@@ -114,7 +115,8 @@ class Provider(object):
     RACKSPACE_FIRST_GEN = 'rackspace_first_gen'
     HOSTVIRTUAL = 'hostvirtual'
     ABIQUO = 'abiquo'
-
+    ENOCLOUD = 'enocloud'
+    
     # Deprecated constants which are still supported
     EC2_US_EAST = 'ec2_us_east'
     EC2_EU = 'ec2_eu_west'  # deprecated name

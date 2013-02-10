@@ -122,7 +122,9 @@ DRIVERS = {
     Provider.HOSTVIRTUAL:
         ('libcloud.compute.drivers.hostvirtual', 'HostVirtualNodeDriver'),
     Provider.ABIQUO:
-        ('libcloud.compute.drivers.abiquo', 'AbiquoNodeDriver')
+        ('libcloud.compute.drivers.abiquo', 'AbiquoNodeDriver'),
+    Provider.ENOCLOUD:
+        ('libcloud.compute.drivers.enocloud', 'EnocloudNodeDriver')
 }
 
 
